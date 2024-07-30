@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builderServices.AddControllers();
 
 builderServices
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
